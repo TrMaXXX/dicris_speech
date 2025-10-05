@@ -4,7 +4,7 @@ import pandas as pd
 from pathlib import Path
 
 
-class IsDayPieceNow(BasePiece):
+class IsDayPieceNowPiece(BasePiece):
 
     def piece_function(self, input_data: InputModel):
 

@@ -3,7 +3,7 @@ from .models import InputModel, OutputModel
 from time import sleep
 
 
-class CalcSUM(BasePiece):
+class CalcSumPiece(BasePiece):
 
 	def piece_function(self, input_data: InputModel):
 

@@ -6,7 +6,7 @@ def test_example_calc_sum_piece():
         b_num=2
     )
     output_data = piece_dry_run(
-        "CalcSUM",
+        "CalcSumPiece",
         input_data,
     )
 

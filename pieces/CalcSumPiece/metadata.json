@@ -1,10 +1,10 @@
 {
-    "name": "IsDayPieceNow",
-    "description": "Add is day column to joined Meteo and FVE data",
+    "name": "CalcSumPiece",
+    "description": "A Piece that makes sum of two numbers.",
     "dependency": {
-        "requirements_file": "requirements_0.txt"
+        "dockerfile": "Dockerfile_1"
     },
-    "container_resources": {
+	"container_resources": {
         "requests": {
             "cpu": 100,
             "memory": 128
@@ -15,10 +15,10 @@
         }
     },
     "tags": [
-        "Add is day column"
+        "sum"
     ],
     "style": {
-        "node_label": "IsDay Piece",
+        "node_label": "sum piece",
         "icon_class_name": "fa-solid:database"
     }
 }
