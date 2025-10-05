@@ -1,12 +1,8 @@
 [repository]
-# The name of the github organization / person owner, e.g. tauffer-consulting.
-# Must be in lower-case letters
 REGISTRY_NAME = "trmaxxx"
 
-# The name of this Pieces repository
-REPOSITORY_NAME = "dicris_speech"
-REPOSITORY_LABEL = "enter-your-repository-label-here"
+REPOSITORY_NAME = "speech_domino_pieces"
+REPOSITORY_LABEL = "Speech Pieces Repository"
 
-# The version of this Pieces release
-# Attention: changing this will create a new release
-VERSION = "0.1.0"
+VERSION = "0.0.1"
+
