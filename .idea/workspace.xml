@@ -7,6 +7,8 @@
     <list default="true" id="b0d24f41-fd91-4185-b0d3-44ba4db252b7" name="Changes" comment="-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pieces/RandomNumPiece/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pieces/RandomNumPiece/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pieces/RandomNumPiece/piece.py" beforeDir="false" afterPath="$PROJECT_DIR$/pieces/RandomNumPiece/piece.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.models.executor": "Run",
+    "Python.piece.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main"
@@ -236,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759693609930</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="-">
+      <option name="closed" value="true" />
+      <created>1759694453051</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1759694453051</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
