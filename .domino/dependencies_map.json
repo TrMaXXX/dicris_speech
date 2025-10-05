@@ -9,7 +9,7 @@
             "CalcSumPiece"
         ],
         "secrets": [],
-        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1l-group0"
+        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1n-group0"
     },
     "group1": {
         "dependency": {
@@ -17,9 +17,10 @@
             "requirements_file": "requirements_0.txt"
         },
         "pieces": [
-            "IsDayPiece"
+            "IsDayPiece",
+            "RandomNumPiece"
         ],
         "secrets": [],
-        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1l-group1"
+        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1n-group1"
     }
 }

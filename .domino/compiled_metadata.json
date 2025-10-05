@@ -211,5 +211,67 @@
         },
         "secrets_schema": null,
         "source_url": "https://github.com/TrMaXXX/dicris_speech/tree/main/pieces/CalcSumPiece"
+    },
+    "RandomNumPiece": {
+        "name": "RandomNumPiece",
+        "dependency": {
+            "dockerfile": null,
+            "requirements_file": "requirements_0.txt"
+        },
+        "tags": [
+            "Random Num Piece"
+        ],
+        "style": {
+            "node_label": "Random Num Piece",
+            "node_type": "default",
+            "node_style": {
+                "backgroundColor": "#ebebeb"
+            },
+            "useIcon": true,
+            "icon_class_name": "fa-solid:database",
+            "iconStyle": {
+                "cursor": "pointer"
+            }
+        },
+        "description": "Get random number",
+        "container_resources": {
+            "requests": {
+                "cpu": 100,
+                "memory": 128
+            },
+            "limits": {
+                "cpu": 500,
+                "memory": 512
+            }
+        },
+        "input_schema": {
+            "properties": {
+                "meteo_fve_input_file": {
+                    "description": "The path to the joined Meteo and FVE data",
+                    "title": "Meteo and FVE data",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "meteo_fve_input_file"
+            ],
+            "title": "InputModel",
+            "type": "object"
+        },
+        "output_schema": {
+            "description": "IsDay Piece Output Model",
+            "properties": {
+                "number": {
+                    "default": 0,
+                    "description": "Random number",
+                    "title": "Number",
+                    "type": "integer"
+                }
+            },
+            "title": "OutputModel",
+            "type": "object"
+        },
+        "secrets_schema": null,
+        "source_url": "https://github.com/TrMaXXX/dicris_speech/tree/main/pieces/RandomNumPiece"
     }
 }
