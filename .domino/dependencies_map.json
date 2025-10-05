@@ -1,11 +1,12 @@
 {
     "group0": {
         "dependency": {
-            "dockerfile": "Dockerfile_1",
-            "requirements_file": null
+            "dockerfile": null,
+            "requirements_file": "requirements_0.txt"
         },
         "pieces": [
-            "ExampleSineWavePiece","Calc_SUM"
+            "ExampleSineWavePiece",
+			"CalcSUM"
         ],
         "secrets": [],
         "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1b-group0"
