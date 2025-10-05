@@ -4,7 +4,7 @@ import pandas as pd
 from pathlib import Path
 
 
-class CalcSum2(BasePiece):
+class IsDayPieceNow(BasePiece):
 
     def piece_function(self, input_data: InputModel):
 
@@ -15,10 +15,10 @@ class CalcSum2(BasePiece):
             # return ret
             return row['isDayProb'] > 0.03
 
-        df_sel_data = pd.read_csv(input_data.meteo_fve_input_file)
+        df_sel_data = pd.read_csv(input_data.meteo_fve_input_file_now)
         df_sel_data['isDayBool'] = df_sel_data.apply(add_is_day_bool, axis=1)
 
-        message = f"Meteo and FVE data is day column added successfully"
+        message = f"Meteo and FVE data is day column added successfully Now"
         file_path = str(Path(self.results_path) / "FVE.csv")
         df_sel_data.to_csv(file_path, index=False)
 

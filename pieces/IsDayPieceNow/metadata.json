@@ -1,6 +1,6 @@
 {
-    "name": "CalcSum2",
-    "description": "Add is day column to joined Meteo and FVE data SUM",
+    "name": "IsDayPieceNow",
+    "description": "Add is day column to joined Meteo and FVE data",
     "dependency": {
         "requirements_file": "requirements_0.txt"
     },
@@ -15,10 +15,10 @@
         }
     },
     "tags": [
-        "Add is day column SUM"
+        "Add is day column"
     ],
     "style": {
-        "node_label": "IsDay Piece SUM",
+        "node_label": "IsDay Piece",
         "icon_class_name": "fa-solid:database"
     }
 }

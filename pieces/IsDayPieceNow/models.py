@@ -6,9 +6,9 @@ class InputModel(BaseModel):
     IsDay Piece Input Model
     """
 
-    meteo_fve_input_file_sum: str = Field(
-        title="Meteo and FVE data SUM",
-        description="The path to the joined Meteo and FVE data SUM",
+    meteo_fve_input_file_now: str = Field(
+        title="Meteo and FVE data Now",
+        description="The path to the joined Meteo and FVE data Now",
         # json_schema_extra={"from_upstream": "always"}
     )
 
@@ -19,9 +19,9 @@ class OutputModel(BaseModel):
     """
     message: str = Field(
         default="",
-        description="Output message to log SUM"
+        description="Output message to log"
     )
 
     file_path: str = Field(
-        description="The path to the Meteo and FVE data with added is day column SUM"
+        description="The path to the Meteo and FVE data with added is day column"
     )
