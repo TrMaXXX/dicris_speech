@@ -5,9 +5,9 @@
             "requirements_file": null
         },
         "pieces": [
-            "ExampleSineWavePiece","CalcSUM"
+            "ExampleSineWavePiece"
         ],
         "secrets": [],
-        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1ff-group0"
+        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1g-group0"
     }
 }
