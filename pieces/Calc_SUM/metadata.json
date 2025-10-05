@@ -1,0 +1,15 @@
+{
+    "name": "Calc_SUM",
+    "description": "A Piece that makes sum of two numbers.",
+    "dependency": {
+        "requirements_file": "requirements_0.txt"
+    },
+    "tags": [
+        "default",
+        "sum"
+    ],
+    "style": {
+        "node_label": "sum",
+        "icon_class_name": "fa-solid:fa-sigma"
+    }
+}

@@ -96,5 +96,76 @@
                 "EXAMPLE_OPERATOR_SECRET_1"
             ]
         }
+    },
+     "Calc_SUM": {
+        "name": "Calc_SUM",
+        "dependency": {
+            "dockerfile": null,
+            "requirements_file": "requirements_0.txt"
+        },
+        "tags": [
+            "Sum of two numbers"
+        ],
+        "style": {
+            "node_label": "Calc_SUM Piece",
+            "node_type": "default",
+            "node_style": {
+                "backgroundColor": "#ebebeb"
+            },
+            "useIcon": true,
+            "icon_class_name": "fa-solid:database",
+            "iconStyle": {
+                "cursor": "pointer"
+            }
+        },
+        "description": "Calc_SUM",
+        "container_resources": {
+            "requests": {
+                "cpu": 100,
+                "memory": 128
+            },
+            "limits": {
+                "cpu": 500,
+                "memory": 512
+            }
+        },
+        "input_schema": {
+            "description": "Calc_SUM",
+            "properties": {
+                "a_num": {
+                    "description": "The path to the joined Meteo and FVE data",
+                    "title": "Meteo and FVE data",
+                    "type": "float"
+                },
+                "b_num": {
+                    "description": "The path to the joined Meteo and FVE data",
+                    "title": "Meteo and FVE data",
+                    "type": "float"
+                }
+            },
+            "required": [
+                "a_num",'b_num'
+            ],
+            "title": "InputModel",
+            "type": "object"
+        },
+        "output_schema": {
+            "description": "DayOfTheYear Piece Output Model",
+            "properties": {
+                "message": {
+                    "default": "",
+                    "description": "Output message to log",
+                    "title": "Message",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "message"
+            ],
+            "title": "OutputModel",
+            "type": "object"
+        },
+        "secrets_schema": null,
+        "source_url": "https://github.com/IISAS/spice_domino_pieces/tree/main/pieces/DayOfTheYearPiece"
     }
 }
