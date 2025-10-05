@@ -8,7 +8,7 @@
             "ExampleSineWavePiece"
         ],
         "secrets": [],
-        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1i-group0"
+        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1j-group0"
     },
     "group1": {
         "dependency": {
@@ -19,6 +19,6 @@
             "IsDayPiece"
         ],
         "secrets": [],
-        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1i-group1"
+        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1j-group1"
     }
 }
