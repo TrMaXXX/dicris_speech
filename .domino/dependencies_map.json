@@ -8,6 +8,6 @@
             "ExampleSineWavePiece"
         ],
         "secrets": [],
-        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1d-group0"
+        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1ff-group0"
     }
 }
