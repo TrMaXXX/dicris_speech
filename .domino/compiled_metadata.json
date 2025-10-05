@@ -73,5 +73,76 @@
         },
         "secrets_schema": null,
         "source_url": "https://github.com/TrMaXXX/dicris_speech/tree/main/pieces/ExampleSineWavePiece"
+    },
+    "IsDayPiece": {
+        "name": "IsDayPiece",
+        "dependency": {
+            "dockerfile": null,
+            "requirements_file": "requirements_0.txt"
+        },
+        "tags": [
+            "Add is day column"
+        ],
+        "style": {
+            "node_label": "IsDay Piece",
+            "node_type": "default",
+            "node_style": {
+                "backgroundColor": "#ebebeb"
+            },
+            "useIcon": true,
+            "icon_class_name": "fa-solid:database",
+            "iconStyle": {
+                "cursor": "pointer"
+            }
+        },
+        "description": "Add is day column to joined Meteo and FVE data",
+        "container_resources": {
+            "requests": {
+                "cpu": 100,
+                "memory": 128
+            },
+            "limits": {
+                "cpu": 500,
+                "memory": 512
+            }
+        },
+        "input_schema": {
+            "description": "IsDay Piece Input Model",
+            "properties": {
+                "meteo_fve_input_file": {
+                    "description": "The path to the joined Meteo and FVE data",
+                    "title": "Meteo and FVE data",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "meteo_fve_input_file"
+            ],
+            "title": "InputModel",
+            "type": "object"
+        },
+        "output_schema": {
+            "description": "IsDay Piece Output Model",
+            "properties": {
+                "message": {
+                    "default": "",
+                    "description": "Output message to log",
+                    "title": "Message",
+                    "type": "string"
+                },
+                "file_path": {
+                    "description": "The path to the Meteo and FVE data with added is day column",
+                    "title": "File Path",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "file_path"
+            ],
+            "title": "OutputModel",
+            "type": "object"
+        },
+        "secrets_schema": null,
+        "source_url": "https://github.com/TrMaXXX/dicris_speech/tree/main/pieces/IsDayPiece"
     }
 }

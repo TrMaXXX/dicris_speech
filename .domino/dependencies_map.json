@@ -8,6 +8,17 @@
             "ExampleSineWavePiece"
         ],
         "secrets": [],
-        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1g-group0"
+        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1h-group0"
+    },
+    "group1": {
+        "dependency": {
+            "dockerfile": null,
+            "requirements_file": "requirements_0.txt"
+        },
+        "pieces": [
+            "IsDayPiece"
+        ],
+        "secrets": [],
+        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1h-group1"
     }
 }
