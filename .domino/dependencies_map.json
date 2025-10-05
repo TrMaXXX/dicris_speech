@@ -5,10 +5,11 @@
             "requirements_file": null
         },
         "pieces": [
-            "ExampleSineWavePiece"
+            "ExampleSineWavePiece",
+            "CalcSumPiece"
         ],
         "secrets": [],
-        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1j-group0"
+        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1l-group0"
     },
     "group1": {
         "dependency": {
@@ -19,6 +20,6 @@
             "IsDayPiece"
         ],
         "secrets": [],
-        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1j-group1"
+        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1l-group1"
     }
 }
