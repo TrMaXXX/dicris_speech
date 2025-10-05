@@ -8,6 +8,6 @@
             "ExampleSineWavePiece","Calc_SUM"
         ],
         "secrets": [],
-        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1a-group0"
+        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1b-group0"
     }
 }
