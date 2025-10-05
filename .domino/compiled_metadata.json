@@ -144,5 +144,72 @@
         },
         "secrets_schema": null,
         "source_url": "https://github.com/TrMaXXX/dicris_speech/tree/main/pieces/IsDayPiece"
+    },
+    "CalcSumPiece": {
+        "name": "CalcSumPiece",
+        "dependency": {
+            "dockerfile": "Dockerfile_1",
+            "requirements_file": null
+        },
+        "tags": [
+            "sum"
+        ],
+        "style": {
+            "node_label": "sum piece",
+            "node_type": "default",
+            "node_style": {
+                "backgroundColor": "#ebebeb"
+            },
+            "useIcon": true,
+            "icon_class_name": "fa-solid:database",
+            "iconStyle": {
+                "cursor": "pointer"
+            }
+        },
+        "description": "A Piece that makes sum of two numbers.",
+        "container_resources": {
+            "requests": {
+                "cpu": 100,
+                "memory": 128
+            },
+            "limits": {
+                "cpu": 500,
+                "memory": 512
+            }
+        },
+        "input_schema": {
+            "description": "Sum Piece Input Model",
+            "properties": {
+                "a_num": {
+                    "title": "A Num",
+                    "type": "number"
+                },
+                "b_num": {
+                    "default": 1,
+                    "description": "Number",
+                    "title": "B Num",
+                    "type": "number"
+                }
+            },
+            "title": "InputModel",
+            "type": "object"
+        },
+        "output_schema": {
+            "description": "Sleep Piece Output Model",
+            "properties": {
+                "message": {
+                    "description": "Sum of a and b",
+                    "title": "Message",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "message"
+            ],
+            "title": "OutputModel",
+            "type": "object"
+        },
+        "secrets_schema": null,
+        "source_url": "https://github.com/TrMaXXX/dicris_speech/tree/main/pieces/CalcSumPiece"
     }
 }
