@@ -5,7 +5,7 @@
             "requirements_file": null
         },
         "pieces": [
-            "ExampleSineWavePiece"
+            "ExampleSineWavePiece","Calc_SUM"
         ],
         "secrets": [],
         "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1a-group0"
