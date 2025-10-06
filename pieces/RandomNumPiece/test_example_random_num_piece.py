@@ -11,4 +11,4 @@ def test_example_calc_sum_piece():
         input_data,
     )
     print(output_data)
-    assert output_data["number] is not None
+    assert output_data["number"] is not None
