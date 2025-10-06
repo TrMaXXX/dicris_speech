@@ -185,8 +185,8 @@
                     "type": "number"
                 },
                 "b_num": {
-                    "default": 1,
-                    "description": "Number",
+                    "default": 1.0,
+                    "description": "float",
                     "title": "B Num",
                     "type": "number"
                 }
@@ -247,10 +247,10 @@
         "input_schema": {
             "properties": {
                 "max_num": {
-                    "default": 100,
-                    "description": "Maximum for random generator",
+                    "default": 100.0,
+                    "description": "Maximum for random generator (float)",
                     "title": "Maximum",
-                    "type": "integer"
+                    "type": "number"
                 }
             },
             "title": "InputModel",
@@ -261,7 +261,7 @@
             "properties": {
                 "number": {
                     "default": 0.0,
-                    "description": "Random number",
+                    "description": "Random number (float)",
                     "title": "Number",
                     "type": "number"
                 }
