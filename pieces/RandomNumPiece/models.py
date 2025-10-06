@@ -14,7 +14,7 @@ class OutputModel(BaseModel):
     """
     IsDay Piece Output Model
     """
-    number: int = Field(
-        default=0,
+    number: float = Field(
+        default=0.0,
         description="Random number"
     )

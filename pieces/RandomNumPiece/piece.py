@@ -8,7 +8,7 @@ class RandomNumPiece(BasePiece):
 
     def piece_function(self, input_data: InputModel):
 
-        number=int(random.random()*input_data.max_num)
+        number=float(random.random()*input_data.max_num)
         # Set display result
         # Return output
         raw_content = f"Random number is: {number}\n"
