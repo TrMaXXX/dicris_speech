@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b0d24f41-fd91-4185-b0d3-44ba4db252b7" name="Changes" comment="-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pieces/RandomNumPiece/test_example_random_num_piece.py" beforeDir="false" afterPath="$PROJECT_DIR$/pieces/RandomNumPiece/test_example_random_num_piece.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pieces/CalcSumPiece/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pieces/CalcSumPiece/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pieces/RandomNumPiece/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pieces/RandomNumPiece/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +290,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759740855157</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="-">
+      <option name="closed" value="true" />
+      <created>1759741043563</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1759741043563</updated>
+    </task>
+    <task id="LOCAL-00030" summary="-">
+      <option name="closed" value="true" />
+      <created>1759741189313</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1759741189313</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

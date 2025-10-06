@@ -2,10 +2,10 @@ from pydantic import BaseModel, Field
 
 
 class InputModel(BaseModel):
-    max_num: int = Field(
-        default=100,
+    max_num: float = Field(
+        default=100.0,
         title="Maximum",
-        description="Maximum for random generator",
+        description="Maximum for random generator (float)",
         # json_schema_extra={"from_upstream": "always"}
     )
 
@@ -16,5 +16,5 @@ class OutputModel(BaseModel):
     """
     number: float = Field(
         default=0.0,
-        description="Random number"
+        description="Random number (float)"
     )

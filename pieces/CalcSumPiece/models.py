@@ -7,12 +7,12 @@ class InputModel(BaseModel):
 	"""
 
 	a_num: float = Field(
-		default=1,
-		description="Number",
+		default=1.0,
+		description="float",
 	),
 	b_num: float = Field(
-		default=1,
-		description="Number",
+		default=1.0,
+		description="float",
 	)
 
 
