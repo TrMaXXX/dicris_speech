@@ -260,10 +260,10 @@
             "description": "IsDay Piece Output Model",
             "properties": {
                 "number": {
-                    "default": 0,
+                    "default": 0.0,
                     "description": "Random number",
                     "title": "Number",
-                    "type": "integer"
+                    "type": "number"
                 }
             },
             "title": "OutputModel",
