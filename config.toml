@@ -2,7 +2,7 @@
 REGISTRY_NAME = "trmaxxx"
 
 REPOSITORY_NAME = "speech_domino_pieces"
-REPOSITORY_LABEL = "Speech Pieces Repository 0"
+REPOSITORY_LABEL = "Speech Pieces Repository"
 
-VERSION = "0.0.1n"
+VERSION = "0.0.1o"
 
