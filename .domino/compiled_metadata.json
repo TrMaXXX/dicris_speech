@@ -251,6 +251,12 @@
                     "description": "Maximum for random generator (float)",
                     "title": "Maximum",
                     "type": "number"
+                },
+                "min_num": {
+                    "default": 0.0,
+                    "description": "Minimum for random generator (float)",
+                    "title": "Minimum",
+                    "type": "number"
                 }
             },
             "title": "InputModel",
