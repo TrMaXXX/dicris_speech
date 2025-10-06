@@ -8,6 +8,12 @@ class InputModel(BaseModel):
         description="Maximum for random generator (float)",
         # json_schema_extra={"from_upstream": "always"}
     )
+    min_num: float = Field(
+        default=0.0,
+        title="Minimum",
+        description="Minimum for random generator (float)",
+        # json_schema_extra={"from_upstream": "always"}
+    )
 
 
 class OutputModel(BaseModel):
