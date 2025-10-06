@@ -246,15 +246,13 @@
         },
         "input_schema": {
             "properties": {
-                "meteo_fve_input_file": {
-                    "description": "The path to the joined Meteo and FVE data",
-                    "title": "Meteo and FVE data",
-                    "type": "string"
+                "max_num": {
+                    "default": 100,
+                    "description": "Maximum for random generator",
+                    "title": "Maximum",
+                    "type": "integer"
                 }
             },
-            "required": [
-                "meteo_fve_input_file"
-            ],
             "title": "InputModel",
             "type": "object"
         },
