@@ -2,9 +2,10 @@ from pydantic import BaseModel, Field
 
 
 class InputModel(BaseModel):
-    meteo_fve_input_file: str = Field(
-        title="Meteo and FVE data",
-        description="The path to the joined Meteo and FVE data",
+    max_num: int = Field(
+        default=100,
+        title="Maximum",
+        description="Maximum for random generator",
         # json_schema_extra={"from_upstream": "always"}
     )
 

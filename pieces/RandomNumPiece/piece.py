@@ -1,13 +1,14 @@
 from domino.base_piece import BasePiece
 from .models import InputModel, OutputModel
 import random
+import base64
 
 
 class RandomNumPiece(BasePiece):
 
     def piece_function(self, input_data: InputModel):
 
-        number=int(random.random()*100)
+        number=int(random.random()*input_data.max_num)
         # Set display result
         # Return output
         raw_content = f"Random number is: {number}\n"
