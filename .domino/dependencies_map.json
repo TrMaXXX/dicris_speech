@@ -9,7 +9,7 @@
             "CalcSumPiece"
         ],
         "secrets": [],
-        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1o-group0"
+        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1p-group0"
     },
     "group1": {
         "dependency": {
@@ -21,6 +21,6 @@
             "RandomNumPiece"
         ],
         "secrets": [],
-        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1o-group1"
+        "source_image": "ghcr.io/trmaxxx/speech_domino_pieces:0.0.1p-group1"
     }
 }
